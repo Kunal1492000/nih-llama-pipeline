@@ -1,0 +1,10 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load metadata
+metadata = pd.read_csv("../data/raw/Data_Entry_2017.csv")
+
+# Display class distribution
+class_counts = metadata['Finding Labels'].value_counts()
+class_counts.plot(kind='bar', title="Class Distribution")
+plt.show()
