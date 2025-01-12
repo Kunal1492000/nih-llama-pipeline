@@ -15,4 +15,7 @@ This repository contains an end-to-end pipeline for processing the NIH Chest X-r
    ```bash
    git clone https://github.com/your-username/nih-llama-pipeline.git
    cd nih-llama-pipeline
+ ##Install dependencies:
+pip install -r requirements.txt
+
 
